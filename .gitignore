@@ -1,0 +1,52 @@
+
+# =====================================
+# Sinhala Tourism Chatbot - Git Ignore
+# =====================================
+
+# Python Virtual Environments
+.venv/
+.venv310/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Neo4j Credentials and Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# SinLlama Model Files
+models/
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Jupyter Notebook Cache
+.ipynb_checkpoints/
+
+# VS Code Settings
+.vscode/
+
+# Temporary Files
+*.log
+*.tmp
+*.bak
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Local Data and Databases
+*.db
+*.sqlite
+*.sqlite3
+source_graphrag.zip
